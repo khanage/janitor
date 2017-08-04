@@ -7,6 +7,7 @@ import Network.AWS.EC2
 import Control.Lens
 
 data MyTag = MyTag { myName :: Text, myValue :: Text } deriving (Eq, Show)
+
 simpleTag
   :: TagDescription
   -> MyTag
